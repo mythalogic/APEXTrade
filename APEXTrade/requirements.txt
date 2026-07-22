@@ -1,0 +1,37 @@
+# APEX - AI Day Trading Platform
+# Python 3.11+
+
+# Broker & Market Data
+alpaca-py>=0.13.0
+
+# AI / LLM
+anthropic>=0.25.0
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Database
+SQLAlchemy>=2.0.0
+
+# Web Framework (Dashboard)
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Auth (Dashboard)
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+
+# Data Processing
+pandas>=2.0.0
+pandas-ta>=0.3.14b
+numpy>=1.24.0
+
+# Historical Data (dev/backfill)
+yfinance>=0.2.38
+
+# HTTP & Config
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Utilities
+pytz>=2024.1
